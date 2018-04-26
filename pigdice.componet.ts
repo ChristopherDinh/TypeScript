@@ -29,5 +29,6 @@ while (g1.die != 1){
      g1.die = (Math.floor(Math.random() * 6))+1;
 }
 console.log(g1.about());
+
 console.log("Number of two's rolled =" + two+ "\nNumber of three's rolled =" + three+ "\nNumber of four's rolled =" + four + "\nNumber of five's rolled =" + five+"\nNumber of six's rolled =" + six);
 

@@ -1,10 +1,9 @@
-export class Ball {
+export class ball {
     id: number;
     color: string;
     size: string;
     
-    constructor(inId:number, inColor: string, inSize: string){
-        this.id = inId;
+    constructor(inColor: string, inSize: string){
         this.color = inColor;
         this.size = inSize;
     }

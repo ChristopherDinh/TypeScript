@@ -1,15 +1,14 @@
 "use strict";
 exports.__esModule = true;
-var Ball = /** @class */ (function () {
-    function Ball(inId, inColor, inSize) {
-        this.id = inId;
+var ball = /** @class */ (function () {
+    function ball(inColor, inSize) {
         this.color = inColor;
         this.size = inSize;
     }
     //doesn't need getters and setters because properties are public
-    Ball.prototype.about = function () {
+    ball.prototype.about = function () {
         return "Ball: id=" + this.id + ", color=" + this.color + ", size=" + this.size;
     };
-    return Ball;
+    return ball;
 }());
-exports.Ball = Ball;
+exports.ball = ball;
